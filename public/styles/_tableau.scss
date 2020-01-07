@@ -1,0 +1,23 @@
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+tr {
+    background-color: #e4f4ff;
+}
+tbody{
+    tr:hover {
+        background-color: #fff0e0;
+    }
+}
+th {
+    border: 1px solid #2c4259;
+    padding: 5px;
+    font-size: 110%;
+    color: white;
+    background-color: $third-color;
+}
+td {
+    padding: 5px 20px;
+    border: 1px solid #2c4259;
+}

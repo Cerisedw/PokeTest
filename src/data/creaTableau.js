@@ -2,19 +2,19 @@ import $ from "jquery";
 
 export const creaTableauPokedex = () => {
     const tableau = $(`
-    <table>
-        <thead>
-        <tr>
-            <th>N°</th>
-            <th>Image</th>
-            <th>Nom</th>
-            <th>Type</th>
-            <th>Localisation</th>
-        </tr>
-        </thead>
-        <tbody id="listePoke">
-        </tbody>
-    </table>
+        <table>
+            <thead>
+            <tr>
+                <th>N°</th>
+                <th>Image</th>
+                <th>Nom</th>
+                <th>Type</th>
+                <th>Localisation</th>
+            </tr>
+            </thead>
+            <tbody id="listePoke">
+            </tbody>
+        </table>
     `);
     
     $("#content").append(tableau);    

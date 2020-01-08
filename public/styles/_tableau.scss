@@ -3,11 +3,12 @@ table {
     border-collapse: collapse;
 }
 tr {
-    background-color: #e4f4ff;
+    background-color: $card-color;
 }
 tbody{
     tr:hover {
-        background-color: #fff0e0;
+        background-color: $hover-color;
+        color: white;
     }
 }
 th {
@@ -18,6 +19,7 @@ th {
     background-color: $third-color;
 }
 td {
+    text-align: center;
     padding: 5px 20px;
     border: 1px solid #2c4259;
 }

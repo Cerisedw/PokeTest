@@ -1,5 +1,5 @@
 .vignette {
-    background-color: #f9f6f7;
+    background-color: $card-color;
     border-radius: 5px;
     box-shadow: 0 3px 5px rgba(100, 100, 100, 0.5);
     margin: 10px;
@@ -26,4 +26,8 @@
     justify-content: center;
     margin: 0 auto;
     max-width: 1200px;
+}
+
+.noEvent {
+    pointer-events: none;
 }

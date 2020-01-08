@@ -2,7 +2,11 @@ import $ from "jquery";
 
 export const creaVignettePoke = (poke) => {
     const vignette = $(`
-        <div class="vignette">
+        <div class="vignette" id="${poke.id}">
+        </div>
+    `);
+    const noEventDiv = $(`
+        <div class="noEvent">
             <img src="${poke.img}">
         </div>
     `);
@@ -15,6 +19,7 @@ export const creaVignettePoke = (poke) => {
     poke.type.forEach((e) => {
         divContenu.append(`<img src="public\\assets\\images\\type\\${e}.png">`);
     });
-    vignette.append(divContenu);
+    noEventDiv.append(divContenu);
+    vignette.append(noEventDiv);
     $('#content').append(vignette);
 }

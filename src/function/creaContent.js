@@ -3,6 +3,7 @@ import $ from "jquery";
 export const creaNavbar = () => {
     $("#navbar").append(`
         <select id="searchSelect">
+            <option value="" selected disabled hidden>Choisir un type</option>
             <option value="plante">Plante</option>
             <option value="eau">Eau</option>
             <option value="feu">Feu</option>

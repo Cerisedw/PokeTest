@@ -1,4 +1,5 @@
 import $ from "jquery";
+import { pokedex } from "../data/data";
 
 export const creaTableauPokedex = () => {
     const tableau = $(`
@@ -37,4 +38,12 @@ export const creaRowPokedex = (poke) => {
         row.append(types);
         row.append(`<td>${poke.localisation}</td>`);
         $('#listePoke').append(row);
+};
+
+
+export const showOnePokemon = (e) => {
+    const idClick = parseInt(e.target.id);
+    $("#content").empty();
+    creaTableauPokedex();
+    pokedex.filter((poke) => poke.id === idClick).forEach(creaRowPokedex);
 };

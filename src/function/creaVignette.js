@@ -2,7 +2,7 @@ import $ from "jquery";
 
 export const creaVignettePoke = (poke) => {
     const vignette = $(`
-        <div class="pokemon">
+        <div class="vignette">
             <img src="${poke.img}">
         </div>
     `);

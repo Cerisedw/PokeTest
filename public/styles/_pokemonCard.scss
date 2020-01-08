@@ -11,6 +11,13 @@
     }
 }
 
+.vignette:hover {
+    background-color: #aa798b;
+    cursor: pointer;
+    user-select: none;
+}
+
+
 #content {
     display: flex;
     flex-wrap: wrap;

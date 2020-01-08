@@ -94,5 +94,53 @@ export const pokedex = [
         nom: "Astronelle",
         type: ["Insecte", "Psy"],
         localisation: "Forêt de Sleepwood, Coiffe du Géant, Lac Ouragan. Évolution de Larvadar au niveau 30"
+    },
+    {
+        id: 12,
+        numero: 13,
+        img: "public\\assets\\images\\pokedex\\10.png",
+        nom: "Chenipan",
+        type: ["Insecte"],
+        localisation: "Route 1"
+    },
+    {
+        id: 13,
+        numero: 14,
+        img: "public\\assets\\images\\pokedex\\11.png",
+        nom: "Chrysacier",
+        type: ["Insecte"],
+        localisation: "Plaine Verdoyante. Évolution de Chenipan au niveau 7"
+    },
+    {
+        id: 14,
+        numero: 15,
+        img: "public\\assets\\images\\pokedex\\12.png",
+        nom: "Papilusion",
+        type: ["Insecte", "Vol"],
+        localisation: "Forêt de Sleepwood, Lac Coupenotte Est, Miroir du Géant, Plaine Verdoyante. Évolution de Chrysacier au niveau 10"
+    },
+    {
+        id: 15,
+        numero: 16,
+        img: "public\\assets\\images\\pokedex\\736.png",
+        nom: "Larvibule",
+        type: ["Insecte"],
+        localisation: "Forêt de Sleepwood, Route 1, Bois de Clairjour, Lac Coupenotte Est, Lac Milobellus Nord, Lac Milobellus Sud, Tour en ruines"
+    },
+    {
+        id: 16,
+        numero: 17,
+        img: "public\\assets\\images\\pokedex\\737.png",
+        nom: "Chrysapile",
+        type: ["Insecte", "Electrik"],
+        localisation: "Fosse des Sables, Oeil du Lac, Plateau de Kickenham. Évolution de Larvibule au niveau 20"
+    },
+    {
+        id: 17,
+        numero: 18,
+        img: "public\\assets\\images\\pokedex\\738.png",
+        nom: "Lucanon",
+        type: ["Insecte", "Electrik"],
+        localisation: "Miroir du Géant, Siège du Géant. Évolution de Chrysapile avec Pierre Foudre"
     }
 ]

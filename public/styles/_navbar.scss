@@ -1,0 +1,14 @@
+#navbar {
+    padding: 10px;
+    button {
+        padding: 5px;
+        color: $primary-color;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: $hover-color;
+        color: white;
+    }
+
+}

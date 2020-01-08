@@ -12,9 +12,10 @@
 }
 
 .vignette:hover {
-    background-color: #aa798b;
+    background-color: $hover-color;
     cursor: pointer;
     user-select: none;
+    color: white;
 }
 
 
